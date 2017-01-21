@@ -1,39 +1,60 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
-</head>
+	<link rel="stylesheet" href="css/style.css"> </head>
+
 <body>
 	<form action="https://formspree.io/krzysztofgagacki@gmail.com" method="POST">
-		<label for="imie">Imię:</label><br/>
-		<input type="text" id="imie" placeholder="Imię"><br/>
+		<label for="imie">Imię:</label>
 		<br/>
-		<label for="nazwisko">Nazwisko:</label><br/>
-		<input type="text" id="nazwisko" placeholder="Nazwisko"><br/>
+		<input type="text" id="imie" placeholder="Imię">
 		<br/>
-		<label for="email">E-mail:</label><br/>
-		<input type="text" id="email" placeholder="E-mail"><br/>
 		<br/>
-		<label for="phone">Telefon:</label><br/>
-		<input type="tel" id="phone" placeholder="Telefon"><br/>
+		<label for="nazwisko">Nazwisko:</label>
 		<br/>
-		<label for="miasto">Miasto:</label><br/>
+		<input type="text" id="nazwisko" placeholder="Nazwisko">
+		<br/>
+		<br/>
+		<label for="email">E-mail:</label>
+		<br/>
+		<input type="text" id="email" placeholder="E-mail">
+		<br/>
+		<br/>
+		<label for="phone">Telefon:</label>
+		<br/>
+		<input type="tel" id="phone" placeholder="Telefon">
+		<br/>
+		<br/>
+		<label for="miasto">Miasto:</label>
+		<br/>
 		<select id="miasto">
 			<option value="Krk">Kraków</option>
 			<option value="Gdn">Gdańsk</option>
 			<option value="Waw">Warszawa</option>
-		</select><br/>
+		</select>
 		<br/>
-		<label for="sex">Płeć:</label><br/>
-		<input type="radio" id="sex" value="male" checked>Mężczyzna<br/>
-		<input type="radio" value="female">Kobieta<br/>
 		<br/>
-		<label for="zgoda">Zgoda na dane osobowe:</label><br/>
-		<input type="checkbox" id="zgoda" checked><br/>
+		<label for="sex">Płeć:</label>
 		<br/>
-		<textarea rows="4" cols="50"></textarea><br/>
-		<input type="submit" value="Wyślij"><br/>
-	</form>
+		<input type="radio" name="sex" value="male" checked>Mężczyzna
+		<br/>
+		<input type="radio" name="sex" value="female">Kobieta
+		<br/>
+		<br/>
+		<label for="zgoda">Zgoda na dane osobowe:</label>
+		<br/>
+		<br/>
+		<input type="checkbox" id="zgoda" checked>
+		<br/>
+		<label for="wiadomosc">Wiadomość:</label>
+		<br/>
+		<textarea id="wiadomosc"></textarea>
+		<br/>
+		<input type="submit" value="Send">
+		<br/> </form>
 </body>
+
 </html>

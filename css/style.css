@@ -1,0 +1,52 @@
+body {
+	background-color: #213b50;
+	color: white;
+	text-decoration: bold;
+	margin-left: 20px;
+	width: 250px;
+}
+
+input {
+	background-color: #2b4a64;
+	border: none;
+	padding: 5px 0 5px 0;
+}
+
+option {
+	background-color: #2b4a64;
+	border-color: #2b4a64;
+}
+
+input:focus {
+	background-color: #4e798c;
+	border-color: white;
+	border-style: solid;
+}
+
+#miasto {
+	background-color: #2b4a64;
+	color: white;
+	width: 300px;
+}
+
+input[type="text"],
+input[type="tel"] {
+	width: 300px;
+}
+
+input[type="submit"] {
+	background-color: lime;
+	text-transform: uppercase;
+	text-decoration: bold;
+	color: white;
+	border-radius: 10%;
+	padding: 10px 20px 10px;
+	margin-top: 10px;
+}
+
+#wiadomosc {
+	background-color: #2b4a64;
+	border-color: #2b4a64;
+	width: 300px;
+	height: 100px;
+}
